@@ -30,6 +30,8 @@ body li:hover{
   box-shadow: 0 0 30px 1px rgb(238, 203, 203);
 }
 .ul li img {
+  object-fit: contain;
+  height: 100%;
   width: 100%;
   margin-bottom: 10px;
 }

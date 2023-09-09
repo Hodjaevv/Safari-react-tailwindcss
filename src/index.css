@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+
+* {
+  font-family: "Mulish", sans-serif;
+  font-weight: 500;
+}
+.categoryUl li {
+  color: #686868;
+}
+body li:hover{
+  color: #ed165f;
+}
+* p {
+  font-size: 20px;
+}
+.ul li {
+  width: 300px;
+  height: 450px;
+}
+.ul li:hover {
+  box-shadow: 0 0 30px 1px rgb(238, 203, 203);
+}
+.ul li img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.categoryUl li {
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+.sizeUl li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 32px;
+  border: 1.5px solid #787777;
+  border-radius: 3px;
+}
+.sizeUl li:hover {
+  background-color: #ed165f;
+  color: #fff;
+}
+.colorUl li {
+  width: 90px;
+  height: 32px;
+  align-items: center;
+}
+.colorUl li p {
+  width: 50px;
+  font-size: 18px;
+}
+.colorUl .gold {
+  background: linear-gradient(
+    180deg,
+    #f3b121 0%,
+    rgba(255, 203, 90, 0.57) 53.65%,
+    #ffc954 100%
+  );
+}
+.hero {
+  background-image: url(../src/assets/images/logo-big.png);
+  background-repeat: no-repeat;
+  background-position: top 111px center;
+}
+html{
+  scroll-behavior: smooth;
+}
